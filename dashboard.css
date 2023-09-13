@@ -43,12 +43,14 @@ body.dark {
 
 body {
 	background: #0C0C1E;
+	/* background: #1D203E; */
 	overflow-x: hidden;
 }
 
 .stroke{
 	height: 1px;
-	background-color: #ffffff79;
+	/* background-color: #ffffff79; */
+	background: rgba(255, 255, 255, 0.08);
 }
 
 .stroke2{
@@ -67,15 +69,16 @@ body {
 .advertise{
 	width: 700px;
 	height: 150px;
-	background-image: url(./Asset/img/Design\ 07\ 1.png);
+	background-image: url(./Asset/img/Frame\ 91\ \(1\).png);
 	margin: 0 auto;
+	background-size: cover;
 	text-align: center;
 	border-radius:12px;
 	margin-top: 90px;
 }
 .advertise h3{
 	font-size: 27px;
-	padding-top: 30px;
+	padding-top: 40px;
 	color: #fff;
 }
 .user{
@@ -157,7 +160,7 @@ body {
 }
 .info p{
 	margin-top: 10px;
-	margin-left: 20px;
+	margin-left: 12px;
 	color: #fff;
 }
 /* SIDEBAR */
@@ -167,7 +170,8 @@ body {
 	left: 0;
 	width: 280px;
 	height: 100%;
-	background: #060714;
+	/* background: #060714; */
+	background: #1D203E;
 	z-index: 2000;
 	font-family: var(--lato);
 	transition: .3s ease;
@@ -203,11 +207,12 @@ body {
 	justify-content: center;
 }
 #sidebar .side-menu {
-	width: 100%;
+	width: 60%;
 	margin-top: 30px;
+	margin-left: 40px;
 }
 #sidebar .side-menu li {
-	height: 48px;
+	height: 40px;
 	background: transparent;
 	margin-left: 6px;
 	/* border-radius: 48px 0 0 48px; */
@@ -219,8 +224,8 @@ body {
 }
 
 #sidebar .side-menu li a {
-	width: 100%;
-	height: 100%;
+	/* width: 100%; */
+	/* height: 100%; */
 	/* background: #0C0C1E; */
 	display: flex;
 	align-items: center;
