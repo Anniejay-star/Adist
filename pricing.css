@@ -34,7 +34,7 @@ a {
     line-height: normal;
 }
 
-.button {
+.price-btn {
     display: flex;
     gap: 30px;
 }
@@ -107,7 +107,7 @@ nav {
     transition: 0.7s ease;
 }
 
-.hambuger {
+.price-ham {
     display: none;
     cursor: pointer;
 }
@@ -321,6 +321,34 @@ footer {
     left: 1220px;
     bottom: 800px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* .pricing-banner2 img {
     width: 650px;

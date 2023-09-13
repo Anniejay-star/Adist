@@ -2774,11 +2774,11 @@
 
 @media (max-width: 719px) and (min-width:601px) {
     .hambuger {
-        display: block;
+        display: block !important;
     }
 
     .button {
-        display: none;
+        display: none !important;
     }
 
     .hambuger.active .bar:nth-child(2) {
