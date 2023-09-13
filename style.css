@@ -205,7 +205,7 @@ span {
 }
 
 .sec2 {
-    margin-top: 140px;
+    margin-top: 100px;
 }
 
 .banner3 {
@@ -271,7 +271,7 @@ span {
 
 .sec3 {
     background-image: url(./Asset/img/trance.png);
-    margin-top: 150px;
+    margin-top: 100px;
     background-repeat: no-repeat;
     background-size: contain;
     height: 470px;
@@ -344,7 +344,7 @@ p {
 
 .sec4 {
     background-image: url(./Asset/img/trance.png);
-    margin-top: 150px;
+    margin-top: 100px;
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -397,7 +397,7 @@ p {
 }
 
 .sec5 {
-    margin-top: 130px;
+    margin-top: 100px;
 }
 
 .line3 img {
@@ -468,7 +468,7 @@ p {
 }
 
 .sec6 {
-    margin-top: 150px;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
 }
@@ -478,7 +478,7 @@ p {
     height: 250px;
     border-radius: 15px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%), linear-gradient(93deg, #C03EAC -8.13%, #25D7E2 117.03%);
-    
+
 }
 
 .banner6-text {
@@ -492,7 +492,7 @@ p {
     width: 730px;
     font-size: 15px;
     font-weight: 200;
-    margin-left: 200px;
+    margin: 0 auto;
 }
 
 .banner6-text h1 {
@@ -523,7 +523,7 @@ p {
     height: 40px;
     border: none;
     border-radius: 20px;
- background-color: #fff;
+    background-color: #fff;
     color: #000;
     font-weight: 500;
     font-size: 17px;
@@ -593,6 +593,7 @@ footer {
     border-radius: 20px;
     color: #fff;
 }
+
 .foot h3 {
     color: #fff;
     font-weight: 500;
@@ -630,11 +631,12 @@ footer {
 }
 
 .copyright {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .copy-icons svg {
     color: #fff;
+    font-size: 20px;
 }
 
 .copy {
@@ -652,3 +654,41 @@ footer {
     background-color: #fff;
     margin-top: 10px;
 }
+
+.circle-gradient {
+    width: 70px;
+    height: 50px;
+    border-radius: 671px;
+    background: linear-gradient(88deg, rgba(192, 62, 172, 0.11) 44.45%, rgba(51, 53, 207, 0.08) 138.6%);
+    box-shadow: 0px 0px 237px 146px rgba(192, 62, 172, 0.15);
+    filter: blur(30px);
+    position: absolute;
+    left: 20px;
+}
+.circle-gradient2{
+    width: 70px;
+    height: 70px;
+    border-radius: 671px;
+    background: linear-gradient(88deg, rgba(192, 62, 172, 0.11) 44.45%, rgba(51, 53, 207, 0.08) 138.6%);
+    box-shadow: 0px 0px 237px 146px rgba(192, 62, 173, 0.315);
+    filter: blur(30px);
+    position: relative;
+    left: 1220px;
+    bottom: 800px;
+}
+
+/* .second-image2 {
+    position: relative;
+    bottom: 800px;
+    left: -50px;
+    width: 180px;
+}
+.second-image2 img{
+    width: 100%;
+}
+.third-image2 {
+    position: relative;
+    bottom: 450px;
+    left: 130px;
+    width: 200px;
+} */

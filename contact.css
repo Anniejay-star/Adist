@@ -218,6 +218,10 @@ footer {
   margin: 0 auto;
 }
 
+.copy-icons svg {
+    color: #fff;
+    font-size: 20px;
+}
 .feet {
   display: flex;
   padding-top: 30px;

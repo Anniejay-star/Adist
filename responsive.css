@@ -1,3 +1,11 @@
+@media screen and (max-width: 1300px) {
+    .circle-gradient{
+        display: none;
+    }
+    .circle-gradient2{
+        display: none;
+    }
+}
 @media screen and (max-width: 1200px) and (min-width: 1025px) {
 
     .banner1 {
@@ -374,7 +382,7 @@
     footer{
         background-color: #131635;
         height: 300px;
-        margin-top: 80px;
+        /* margin-top: 80px; */
     }
     .footer{
         width: 900px;
@@ -914,7 +922,7 @@
     footer{
         background-color: #131635;
         height: 300px;
-        margin-top: 80px;
+        /* margin-top: 80px; */
     }
     .footer{
         width: 800px;
@@ -1803,7 +1811,7 @@
     footer{
         background-color: #131635;
         height: auto;
-        margin-top: 80px;
+        /* margin-top: 80px; */
         padding-bottom: 30px;
     }
     .footer{
